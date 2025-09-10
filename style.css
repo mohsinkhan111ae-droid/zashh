@@ -1,0 +1,27 @@
+
+body{margin:0;font-family:Arial;background:#0f0f0f;color:#fff}
+.container{max-width:900px;margin:auto;padding:20px}
+.topbar{background:#111;padding:10px 0;border-bottom:1px solid #333}
+.logo{color:#c69c20;margin:0 20px}
+.logo span{font-weight:bold}
+.nav a{color:#aaa;margin:0 10px;text-decoration:none}
+.hero{display:flex;flex-wrap:wrap;gap:20px;margin-top:20px}
+.hero-left{flex:1}
+.hero-left h2 span{color:#c69c20}
+.price{font-size:20px;margin:10px 0;color:#c69c20}
+.btn{background:#333;color:#fff;padding:10px 14px;border:none;border-radius:6px;cursor:pointer}
+.btn.primary{background:#c69c20;color:#000}
+.btn.small{font-size:12px;padding:6px 10px}
+.btn.ghost{background:transparent;border:1px solid #555}
+.card{background:#1a1a1a;padding:15px;border-radius:8px;flex:1;min-width:260px}
+.qr{width:180px;display:block;margin:15px auto}
+.utr-form{margin-top:10px}
+input[type=text]{width:100%;padding:8px;border-radius:5px;border:1px solid #333;background:#000;color:#fff}
+.utr-msg{color:#c69c20;margin-top:8px}
+.live-notify{position:fixed;bottom:20px;left:20px;background:#111;padding:10px 14px;border-radius:6px;opacity:0;transition:.3s;z-index:999}
+.live-notify.show{opacity:1}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,0.6);display:flex;align-items:center;justify-content:center;opacity:0;visibility:hidden;transition:.2s;z-index:1000}
+.modal[aria-hidden="false"]{opacity:1;visibility:visible}
+.modal-content{background:#1a1a1a;padding:20px;border-radius:8px;max-width:400px;width:90%;text-align:center}
+.modal-close{background:none;border:none;color:#999;float:right;font-size:20px;cursor:pointer}
+.modal-actions{margin-top:10px}
